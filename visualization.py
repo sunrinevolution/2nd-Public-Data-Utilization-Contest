@@ -33,7 +33,6 @@ ijb_vote = ijb_vote.drop(columns=['읍면동명', '투표수', '선거인수'])
 yj_vote = yj_vote.drop(columns=['읍면동명', '투표수', '선거인수'])
 
 fig = plt.figure()
-# fig.subtitle('시/도별 개표 데이터 분석')
 
 fig, ax = plt.subplots(nrows=2, ncols=3, figsize=(24, 12))
 
